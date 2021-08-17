@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="RunewordCell" customModule="D2RuneWords" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="316"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="316"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HSB-XP-8OB">
+                        <rect key="frame" x="20" y="10" width="45" height="29"/>
+                        <attributedString key="attributedText">
+                            <fragment content="Title">
+                                <attributes>
+                                    <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <font key="NSFont" metaFont="system" size="24"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amn (11) + Ber (30) + Ist (24) + Sol (12) + Sur (29)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000000000000004" translatesAutoresizingMaskIntoConstraints="NO" id="Otn-r8-SMG">
+                        <rect key="frame" x="20" y="68.5" width="335" height="14.5"/>
+                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mhs-YJ-Z3S">
+                        <rect key="frame" x="20" y="93" width="335" height="198"/>
+                        <attributedString key="attributedText">
+                            <fragment>
+                                <string key="content">Indestructible
++260-310% Enhanced Damage (varies)
++9 To Minimum Damage
+7% Life Stolen Per Hit
+20% Chance of Crushing Blow
+Hit Blinds Target
+Slows Target By 33%
+Replenish Mana 16%
+Cannot Be Frozen
+30% Better Chance Of Getting Magic Items
+Level 8 Revive (88 Charges)</string>
+                                <attributes>
+                                    <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <font key="NSFont" metaFont="system" size="12"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="truncatingTail" baseWritingDirection="natural" lineSpacing="4" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swords" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000001192092896" translatesAutoresizingMaskIntoConstraints="NO" id="qTp-Da-15p">
+                        <rect key="frame" x="20" y="44" width="42" height="14.5"/>
+                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="Mhs-YJ-Z3S" firstAttribute="top" secondItem="Otn-r8-SMG" secondAttribute="bottom" constant="10" id="5zC-I1-ejP"/>
+                <constraint firstItem="HSB-XP-8OB" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="NnS-Wb-MnU"/>
+                <constraint firstItem="qTp-Da-15p" firstAttribute="top" secondItem="HSB-XP-8OB" secondAttribute="bottom" constant="5" id="THH-bH-nhQ"/>
+                <constraint firstItem="Otn-r8-SMG" firstAttribute="leading" secondItem="HSB-XP-8OB" secondAttribute="leading" id="axV-oS-NnT"/>
+                <constraint firstItem="Otn-r8-SMG" firstAttribute="top" secondItem="qTp-Da-15p" secondAttribute="bottom" constant="10" id="hRL-C1-Qaw"/>
+                <constraint firstAttribute="trailing" secondItem="Otn-r8-SMG" secondAttribute="trailing" constant="20" id="jks-Es-dzo"/>
+                <constraint firstAttribute="trailing" secondItem="Mhs-YJ-Z3S" secondAttribute="trailing" constant="20" id="rRe-qF-vsk"/>
+                <constraint firstItem="HSB-XP-8OB" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="vE5-jN-DsV"/>
+                <constraint firstItem="Mhs-YJ-Z3S" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="vSS-AJ-MiR"/>
+                <constraint firstItem="qTp-Da-15p" firstAttribute="leading" secondItem="HSB-XP-8OB" secondAttribute="leading" id="xYB-ql-ZeQ"/>
+            </constraints>
+            <size key="customSize" width="375" height="326"/>
+            <connections>
+                <outlet property="benefitsLabel" destination="Mhs-YJ-Z3S" id="nb7-Qx-Y5H"/>
+                <outlet property="equipmentLabel" destination="qTp-Da-15p" id="63a-aT-ksV"/>
+                <outlet property="runeLabel" destination="Otn-r8-SMG" id="oKW-Op-C91"/>
+                <outlet property="titleLabel" destination="HSB-XP-8OB" id="iyd-Gz-e5Q"/>
+            </connections>
+            <point key="canvasLocation" x="70.28985507246378" y="-12.723214285714285"/>
+        </collectionViewCell>
+    </objects>
+</document>

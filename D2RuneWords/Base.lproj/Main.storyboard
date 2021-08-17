@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Diabolica-VRBB.ttf">
+            <string>Diabolica</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="D2RuneWords" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appbackground" translatesAutoresizingMaskIntoConstraints="NO" id="mBG-kH-5Xh">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="MRE-4S-4qc">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="5" id="EaJ-R6-m5x">
+                                    <size key="itemSize" width="75" height="123"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="9FX-D2-iTZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="123"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="yEs-C2-QSi">
+                                            <rect key="frame" x="0.0" y="0.0" width="75" height="123"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </collectionViewCellContentView>
+                                    </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="H3g-sc-puk">
+                                        <rect key="frame" x="85" y="0.0" width="75" height="123"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="f5u-IL-HbR">
+                                            <rect key="frame" x="0.0" y="0.0" width="75" height="123"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </collectionViewCellContentView>
+                                    </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="znc-JX-5wz">
+                                        <rect key="frame" x="169.5" y="0.0" width="75" height="123"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="wNC-Iq-70F">
+                                            <rect key="frame" x="0.0" y="0.0" width="75" height="123"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </collectionViewCellContentView>
+                                    </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="kfT-LB-v6s">
+                                        <rect key="frame" x="254.5" y="0.0" width="75" height="123"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="U45-MM-6A9">
+                                            <rect key="frame" x="0.0" y="0.0" width="75" height="123"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </collectionViewCellContentView>
+                                    </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="9yj-VN-rEc">
+                                        <rect key="frame" x="339" y="0.0" width="75" height="123"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="LTk-j2-XHn">
+                                            <rect key="frame" x="0.0" y="0.0" width="75" height="123"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </collectionViewCellContentView>
+                                    </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="9BC-mS-L4N">
+                                        <rect key="frame" x="0.0" y="133" width="75" height="123"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="ucP-EP-veI">
+                                            <rect key="frame" x="0.0" y="0.0" width="75" height="123"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </collectionViewCellContentView>
+                                    </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="5gW-0H-5cI">
+                                        <rect key="frame" x="85" y="133" width="75" height="123"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="hOq-nn-T9Q">
+                                            <rect key="frame" x="0.0" y="0.0" width="75" height="123"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </collectionViewCellContentView>
+                                    </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="lKh-jg-4nx">
+                                        <rect key="frame" x="169.5" y="133" width="75" height="123"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="h1j-CL-dst">
+                                            <rect key="frame" x="0.0" y="0.0" width="75" height="123"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </collectionViewCellContentView>
+                                    </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="pJr-qK-3ov">
+                                        <rect key="frame" x="254.5" y="133" width="75" height="123"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="I7f-dS-Q4U">
+                                            <rect key="frame" x="0.0" y="0.0" width="75" height="123"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </collectionViewCellContentView>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2gS-ac-OCN">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="142"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="headerBackground" translatesAutoresizingMaskIntoConstraints="NO" id="7Kk-9b-Cl7">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="142"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="runewordLogo" translatesAutoresizingMaskIntoConstraints="NO" id="e3X-vS-bjb">
+                                        <rect key="frame" x="8" y="52" width="191" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="6jM-cd-BOf"/>
+                                            <constraint firstAttribute="width" secondItem="e3X-vS-bjb" secondAttribute="height" multiplier="139:51" id="Rh7-L9-J9l"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X6n-pf-1BP">
+                                        <rect key="frame" x="234" y="62" width="150" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="TQ3-MK-zBR"/>
+                                            <constraint firstAttribute="width" constant="150" id="wV1-20-toW"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Diabolica" family="Diabolica" pointSize="24"/>
+                                        <state key="normal" title="0 matches">
+                                            <color key="titleColor" red="0.82352941176470584" green="0.6362793328692673" blue="0.13884510691518379" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="tappedMatches:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xz6-F7-hPJ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="X6n-pf-1BP" secondAttribute="trailing" constant="30" id="2m4-9J-n6c"/>
+                                    <constraint firstAttribute="bottom" secondItem="7Kk-9b-Cl7" secondAttribute="bottom" id="5zm-IC-c03"/>
+                                    <constraint firstAttribute="trailing" secondItem="7Kk-9b-Cl7" secondAttribute="trailing" id="QoK-YF-8ku"/>
+                                    <constraint firstItem="7Kk-9b-Cl7" firstAttribute="leading" secondItem="2gS-ac-OCN" secondAttribute="leading" id="Z79-EV-zu6"/>
+                                    <constraint firstItem="e3X-vS-bjb" firstAttribute="leading" secondItem="2gS-ac-OCN" secondAttribute="leading" constant="8" id="gAn-Xv-1d4"/>
+                                    <constraint firstItem="X6n-pf-1BP" firstAttribute="centerY" secondItem="e3X-vS-bjb" secondAttribute="centerY" id="gRT-ys-Gil"/>
+                                    <constraint firstItem="7Kk-9b-Cl7" firstAttribute="top" secondItem="2gS-ac-OCN" secondAttribute="top" id="k9i-dJ-qG2"/>
+                                    <constraint firstAttribute="bottom" secondItem="e3X-vS-bjb" secondAttribute="bottom" constant="20" id="vea-SP-k4T"/>
+                                    <constraint firstAttribute="width" secondItem="2gS-ac-OCN" secondAttribute="height" multiplier="900:309" id="w3A-2v-FoC"/>
+                                </constraints>
+                            </view>
+                            <visualEffectView opaque="NO" alpha="0.10000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Qh-zz-5dn">
+                                <rect key="frame" x="324" y="792" width="60" height="60"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="UPH-7q-BsI">
+                                    <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9tE-Fk-NjB">
+                                            <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="44"/>
+                                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <state key="normal">
+                                                <imageReference key="image" image="xmark" catalog="system" symbolScale="large"/>
+                                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="23" weight="medium"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="tappedClear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a7A-bB-riv"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="9tE-Fk-NjB" secondAttribute="bottom" id="7zW-A4-EY2"/>
+                                        <constraint firstAttribute="trailing" secondItem="9tE-Fk-NjB" secondAttribute="trailing" id="dBs-iG-qoT"/>
+                                        <constraint firstItem="9tE-Fk-NjB" firstAttribute="leading" secondItem="UPH-7q-BsI" secondAttribute="leading" id="lQv-5n-0fJ"/>
+                                        <constraint firstItem="9tE-Fk-NjB" firstAttribute="top" secondItem="UPH-7q-BsI" secondAttribute="top" id="oTF-SM-gML"/>
+                                    </constraints>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="YvH-T4-sYl"/>
+                                    <constraint firstAttribute="width" constant="60" id="dzU-uU-m2t"/>
+                                </constraints>
+                                <blurEffect style="systemChromeMaterialDark"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </visualEffectView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4Qh-zz-5dn" secondAttribute="bottom" constant="10" id="4ZI-CO-hzn"/>
+                            <constraint firstItem="MRE-4S-4qc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4j1-Ic-84v"/>
+                            <constraint firstItem="mBG-kH-5Xh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6jd-tn-RVE"/>
+                            <constraint firstItem="mBG-kH-5Xh" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="7cj-40-Hey"/>
+                            <constraint firstItem="2gS-ac-OCN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="BEP-8m-eXo"/>
+                            <constraint firstItem="2gS-ac-OCN" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="L5K-jg-GVq"/>
+                            <constraint firstAttribute="bottom" secondItem="MRE-4S-4qc" secondAttribute="bottom" id="UEM-Ms-k53"/>
+                            <constraint firstItem="2gS-ac-OCN" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="fTk-uy-nKX"/>
+                            <constraint firstItem="MRE-4S-4qc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="gXC-rY-Vdf"/>
+                            <constraint firstAttribute="bottom" secondItem="mBG-kH-5Xh" secondAttribute="bottom" id="k4w-Uh-MMQ"/>
+                            <constraint firstItem="MRE-4S-4qc" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="lhm-LH-q4X"/>
+                            <constraint firstItem="mBG-kH-5Xh" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="rzR-hF-9Gz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4Qh-zz-5dn" secondAttribute="trailing" constant="30" id="uNW-V1-one"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="clearControl" destination="4Qh-zz-5dn" id="IRD-li-Fir"/>
+                        <outlet property="collectionView" destination="MRE-4S-4qc" id="vea-vy-yYH"/>
+                        <outlet property="matchesButton" destination="X6n-pf-1BP" id="PbL-PN-7IG"/>
+                        <outlet property="navBar" destination="2gS-ac-OCN" id="ldX-ka-MxS"/>
+                        <outlet property="xButton" destination="9tE-Fk-NjB" id="2ll-jH-4tT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="79.710144927536234" y="-13.392857142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="appbackground" width="500" height="875"/>
+        <image name="headerBackground" width="300" height="103"/>
+        <image name="runewordLogo" width="139" height="51"/>
+        <image name="xmark" catalog="system" width="128" height="113"/>
+    </resources>
+</document>

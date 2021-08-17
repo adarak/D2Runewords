@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="RuneSquareCell" customModule="D2RuneWords" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="65" height="85"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="65" height="85"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="burst" translatesAutoresizingMaskIntoConstraints="NO" id="cKa-4P-Jfz">
+                        <rect key="frame" x="-2.5" y="2.5" width="70" height="70"/>
+                        <color key="tintColor" systemColor="linkColor"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AmnRune" translatesAutoresizingMaskIntoConstraints="NO" id="kK7-ap-9vD">
+                        <rect key="frame" x="0.0" y="5" width="65" height="65"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="kK7-ap-9vD" secondAttribute="height" multiplier="1:1" id="Ojv-Wh-NY8"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amn" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iAe-5p-Pox">
+                        <rect key="frame" x="7.5" y="65" width="32" height="17"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                        <color key="textColor" white="0.94790756118881114" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="01" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f0Q-6r-MLS">
+                        <rect key="frame" x="43.5" y="67.5" width="12.5" height="12"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
+                        <color key="textColor" white="0.75047348484848486" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="Thg-YT-98i"/>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="f0Q-6r-MLS" firstAttribute="leading" secondItem="iAe-5p-Pox" secondAttribute="trailing" constant="4" id="1oA-pW-Gs6"/>
+                <constraint firstItem="cKa-4P-Jfz" firstAttribute="height" secondItem="kK7-ap-9vD" secondAttribute="height" constant="5" id="AwX-lg-eG6"/>
+                <constraint firstItem="cKa-4P-Jfz" firstAttribute="width" secondItem="kK7-ap-9vD" secondAttribute="width" constant="5" id="FbZ-gl-b1W"/>
+                <constraint firstItem="cKa-4P-Jfz" firstAttribute="centerY" secondItem="kK7-ap-9vD" secondAttribute="centerY" id="HXr-1H-rMe"/>
+                <constraint firstItem="f0Q-6r-MLS" firstAttribute="centerY" secondItem="iAe-5p-Pox" secondAttribute="centerY" id="Pfp-qB-ybO"/>
+                <constraint firstItem="cKa-4P-Jfz" firstAttribute="centerX" secondItem="kK7-ap-9vD" secondAttribute="centerX" id="YD2-Z4-Ve9"/>
+                <constraint firstAttribute="trailing" secondItem="kK7-ap-9vD" secondAttribute="trailing" id="c2n-7k-P1g"/>
+                <constraint firstItem="kK7-ap-9vD" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="eUk-b6-prW"/>
+                <constraint firstItem="iAe-5p-Pox" firstAttribute="top" secondItem="kK7-ap-9vD" secondAttribute="bottom" constant="-5" id="fYD-UU-eGs"/>
+                <constraint firstItem="iAe-5p-Pox" firstAttribute="centerX" secondItem="kK7-ap-9vD" secondAttribute="centerX" constant="-9" id="rJD-9R-QAh"/>
+                <constraint firstItem="kK7-ap-9vD" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="vLt-3A-0fN"/>
+            </constraints>
+            <size key="customSize" width="80" height="63"/>
+            <connections>
+                <outlet property="burstBackgroundImageView" destination="cKa-4P-Jfz" id="NJU-39-xbl"/>
+                <outlet property="numberLabel" destination="f0Q-6r-MLS" id="UQk-Hh-pBk"/>
+                <outlet property="runeImageView" destination="kK7-ap-9vD" id="U5E-g5-uxr"/>
+                <outlet property="runeLabel" destination="iAe-5p-Pox" id="aJo-Xh-mhD"/>
+            </connections>
+            <point key="canvasLocation" x="-30.434782608695656" y="-86.049107142857139"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="AmnRune" width="116.66666412353516" height="116.66666412353516"/>
+        <image name="burst" width="33.333332061767578" height="33.333332061767578"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

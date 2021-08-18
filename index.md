@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+**Privacy Policy**
 
-You can use the [editor on GitHub](https://github.com/adarak/D2Runewords/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Adam Ake built the D2 Runewords app as a Free app. This SERVICE is provided by Adam Ake at no cost and is intended for use as is.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
 
-### Markdown
+If you choose to use my Service, then you agree to this policy. I will not use or share your information with anyone except as described in this Privacy Policy.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at XXXXXXXXX unless otherwise defined in this Privacy Policy.
 
-```markdown
-Syntax highlighted code block
+**Information Collection and Use**
+No information is collected by me other than what Apple's App store provides by default in their analytics (installs, crashes, daily users).
 
-# Header 1
-## Header 2
-### Header 3
+**Changes to This Privacy Policy**
 
-- Bulleted
-- List
+I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page.
 
-1. Numbered
-2. List
+This policy is effective as of 2021-08-18
 
-**Bold** and _Italic_ and `Code` text
+**Contact Us**
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/adarak/D2Runewords/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at adamaAppleDev@gmail.com.
